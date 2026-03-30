@@ -33,6 +33,6 @@ fi
 python train.py \
   --config-name=train_diffusion_unet_image_workspace \
   task="$TASK" \
-  training.num_epochs=50 \
+  training.num_epochs=51 \
   logging.mode=disabled \
   training.device=cuda:0
